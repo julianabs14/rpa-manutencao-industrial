@@ -1,0 +1,11 @@
+data_hora_inicio,data_hora_fim,equipamento,tipo_parada
+2026-08-10 06:15,2026-08-10 06:42,Filtro Prensa 01,Manutencao Preventiva
+2026-08-10 09:03,2026-08-10 09:11,Bomba Centrifuga 03,Falha Eletrica
+2026-08-10 14:22,2026-08-10 14:58,Filtro Prensa 01,Entupimento
+2026-08-11 02:10,2026-08-11 02:19,Esteira Transportadora 02,Falha Mecanica
+2026-08-11 08:44,2026-08-11 09:30,Filtro Prensa 01,Entupimento
+2026-08-11 16:05,2026-08-11 16:12,Bomba Centrifuga 03,Falha Eletrica
+2026-08-12 03:30,2026-08-12 04:10,Filtro Prensa 01,Manutencao Preventiva
+2026-08-12 11:18,2026-08-12 11:25,Esteira Transportadora 02,Sensor Desalinhado
+2026-08-12 19:47,2026-08-12 20:33,Filtro Prensa 01,Entupimento
+2026-08-13 05:02,2026-08-13 05:09,Bomba Centrifuga 03,Falha Eletrica
