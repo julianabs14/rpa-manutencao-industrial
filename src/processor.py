@@ -13,7 +13,7 @@ def limpar_dados(df):
 
     df = df.drop_duplicates()
 
-    df = df.dropna(subset=["dara_hora_inicio", "data_hora_fim" "equipamento"])
+    df = df.dropna(subset=["data_hora_inicio", "data_hora_fim", "equipamento"])
 
     df = df[df["data_hora_fim"] > df["data_hora_inicio"]]
 
