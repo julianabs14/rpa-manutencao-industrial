@@ -9,7 +9,7 @@ logger = configurar_logger()
 def montar_resumo_texto(resumo_df):
     linhas = []
     for _, linha in resumo_df.iterrows():
-        marcador = "[CRITICO] " if linha["critico"] else ""
+        marcador = "⚠ " if linha["critico"] else ""
         linhas.append(
             f"{marcador}{linha["equipamento"]}: "
             f"{linha["total_paradas"]} paradas, "

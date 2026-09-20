@@ -6,7 +6,7 @@ from src.config import (
 
 def enviar_relatorio_por_email(caminho_relatorio, resumo_texto):
     mensagem = EmailMessage()
-    mensagem["Subjetct"] = "Relatório Diário de Manutenção"
+    mensagem["Subject"] = "Relatório Diário de Manutenção - RPA"
     mensagem["From"] = EMAIL_REMETENTE
     mensagem["To"] = EMAIL_DESTINATARIO
     mensagem.set_content(
